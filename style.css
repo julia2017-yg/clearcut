@@ -78,14 +78,15 @@ body {
   color:hsl(75, 67%, 18%);
  
 }
-.menu-list .active a {
-  color: #fff;
-}
+
 .menu-list .active a:active {
   color: #fff;
 }
 .menu-list li a {
   color: #979797;  
+}
+.menu-list .active a {
+  color: #fff;
 }
 .menu-list li a:hover {
   color:#a7c353;
