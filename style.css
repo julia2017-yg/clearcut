@@ -78,7 +78,10 @@ body {
   color:hsl(75, 67%, 18%);
  
 }
-.menu-list li .active:active {
+.menu-list .active a {
+  color: #fff;
+}
+.menu-list .active a:active {
   color: #fff;
 }
 .menu-list li a {
