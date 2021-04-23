@@ -32,3 +32,22 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
+var make_button_active = function() {
+  var siblings =($(this).siblings());
+  siblings.each(function (index)
+    {
+      $(this).removeClass('active');
+    }
+  )
+  $(this).addClass('active');
+}
+$(document).ready(
+  function()
+  {
+    $(".menu-list li").click(make_button_active);
+  }  
+)
+
+
+
+
